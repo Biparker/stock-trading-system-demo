@@ -1,0 +1,43 @@
+{
+ "ticker": "FNBK",
+ "methodology": "ATR-based trailing stop + Prophet drift signal (SAMPLE DATA)",
+ "atr14": 1.0,
+ "atr_pct_of_price": 2.01,
+ "parkinson_sigma_pct": 1.83,
+ "stage2_pass": false,
+ "recommended_stop": "3.0xATR (6.03%)",
+ "results": {
+  "1.5xATR (3.01%)": {
+   "sharpe": 0.0225,
+   "mean_ret_pct": -0.03,
+   "median_ret_pct": -0.03,
+   "p_loss_gt5": 3.48,
+   "p_profit": 50.3,
+   "avg_stops_yr": 5.8
+  },
+  "2.0xATR (4.02%)": {
+   "sharpe": 0.0647,
+   "mean_ret_pct": 0.85,
+   "median_ret_pct": 0.78,
+   "p_loss_gt5": 3.23,
+   "p_profit": 50.8,
+   "avg_stops_yr": 4.3
+  },
+  "2.5xATR (5.02%)": {
+   "sharpe": 0.0802,
+   "mean_ret_pct": 0.76,
+   "median_ret_pct": 0.7,
+   "p_loss_gt5": 3.01,
+   "p_profit": 51.0,
+   "avg_stops_yr": 3.5
+  },
+  "3.0xATR (6.03%)": {
+   "sharpe": 0.18,
+   "mean_ret_pct": 1.89,
+   "median_ret_pct": 1.74,
+   "p_loss_gt5": 2.72,
+   "p_profit": 52.3,
+   "avg_stops_yr": 2.9
+  }
+ }
+}

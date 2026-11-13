@@ -1,0 +1,43 @@
+{
+ "ticker": "CRSN",
+ "methodology": "ATR-based trailing stop + Prophet drift signal (SAMPLE DATA)",
+ "atr14": 1.07,
+ "atr_pct_of_price": 2.29,
+ "parkinson_sigma_pct": 2.08,
+ "stage2_pass": true,
+ "recommended_stop": "3.0xATR (6.86%)",
+ "results": {
+  "1.5xATR (3.43%)": {
+   "sharpe": 0.3855,
+   "mean_ret_pct": 4.47,
+   "median_ret_pct": 4.11,
+   "p_loss_gt5": 3.11,
+   "p_profit": 55.0,
+   "avg_stops_yr": 6.6
+  },
+  "2.0xATR (4.57%)": {
+   "sharpe": 0.541,
+   "mean_ret_pct": 5.51,
+   "median_ret_pct": 5.06,
+   "p_loss_gt5": 2.78,
+   "p_profit": 57.0,
+   "avg_stops_yr": 5.0
+  },
+  "2.5xATR (5.72%)": {
+   "sharpe": 0.7248,
+   "mean_ret_pct": 7.9,
+   "median_ret_pct": 7.27,
+   "p_loss_gt5": 2.44,
+   "p_profit": 59.4,
+   "avg_stops_yr": 4.0
+  },
+  "3.0xATR (6.86%)": {
+   "sharpe": 0.95,
+   "mean_ret_pct": 10.68,
+   "median_ret_pct": 9.83,
+   "p_loss_gt5": 2.09,
+   "p_profit": 62.4,
+   "avg_stops_yr": 3.3
+  }
+ }
+}

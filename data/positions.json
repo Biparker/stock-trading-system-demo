@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-11-13",
+  "cash_available": 7530.5,
+  "open_positions": {
+    "PRMR": {
+      "shares": 30.0,
+      "cost_basis": 38.9,
+      "stop": 36.81,
+      "added_date": "2026-10-16"
+    },
+    "FNBK": {
+      "shares": 25.0,
+      "cost_basis": 52.1,
+      "stop": 48.96,
+      "added_date": "2026-10-16"
+    }
+  },
+  "stop_loss_orders": {
+    "PRMR": 36.81,
+    "FNBK": 48.96
+  },
+  "fills_log": []
+}

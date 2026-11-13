@@ -1,0 +1,6 @@
+# Demo dashboard only: no Prophet, no API keys, no network access needed.
+streamlit>=1.50.0
+plotly>=5.22.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.8.0

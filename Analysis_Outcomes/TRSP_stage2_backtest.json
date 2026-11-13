@@ -1,0 +1,43 @@
+{
+ "ticker": "TRSP",
+ "methodology": "ATR-based trailing stop + Prophet drift signal (SAMPLE DATA)",
+ "atr14": 0.96,
+ "atr_pct_of_price": 1.66,
+ "parkinson_sigma_pct": 1.51,
+ "stage2_pass": true,
+ "recommended_stop": "2.0xATR (3.33%)",
+ "results": {
+  "1.5xATR (2.49%)": {
+   "sharpe": 0.7878,
+   "mean_ret_pct": 8.64,
+   "median_ret_pct": 7.95,
+   "p_loss_gt5": 2.71,
+   "p_profit": 60.2,
+   "avg_stops_yr": 4.8
+  },
+  "2.0xATR (3.33%)": {
+   "sharpe": 1.05,
+   "mean_ret_pct": 11.97,
+   "median_ret_pct": 11.01,
+   "p_loss_gt5": 2.3,
+   "p_profit": 63.6,
+   "avg_stops_yr": 3.6
+  },
+  "2.5xATR (4.16%)": {
+   "sharpe": 0.7634,
+   "mean_ret_pct": 8.28,
+   "median_ret_pct": 7.62,
+   "p_loss_gt5": 2.41,
+   "p_profit": 59.9,
+   "avg_stops_yr": 2.9
+  },
+  "3.0xATR (4.99%)": {
+   "sharpe": 0.607,
+   "mean_ret_pct": 6.97,
+   "median_ret_pct": 6.41,
+   "p_loss_gt5": 2.37,
+   "p_profit": 57.9,
+   "avg_stops_yr": 2.4
+  }
+ }
+}

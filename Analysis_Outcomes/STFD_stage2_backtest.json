@@ -1,0 +1,43 @@
+{
+ "ticker": "STFD",
+ "methodology": "ATR-based trailing stop + Prophet drift signal (SAMPLE DATA)",
+ "atr14": 0.9,
+ "atr_pct_of_price": 1.25,
+ "parkinson_sigma_pct": 1.13,
+ "stage2_pass": true,
+ "recommended_stop": "2.0xATR (2.49%)",
+ "results": {
+  "1.5xATR (2.00%)": {
+   "sharpe": 0.5768,
+   "mean_ret_pct": 6.06,
+   "median_ret_pct": 5.58,
+   "p_loss_gt5": 2.92,
+   "p_profit": 57.5,
+   "avg_stops_yr": 3.6
+  },
+  "2.0xATR (2.49%)": {
+   "sharpe": 0.8,
+   "mean_ret_pct": 8.32,
+   "median_ret_pct": 7.66,
+   "p_loss_gt5": 2.54,
+   "p_profit": 60.4,
+   "avg_stops_yr": 2.7
+  },
+  "2.5xATR (3.12%)": {
+   "sharpe": 0.5983,
+   "mean_ret_pct": 6.24,
+   "median_ret_pct": 5.74,
+   "p_loss_gt5": 2.55,
+   "p_profit": 57.8,
+   "avg_stops_yr": 2.2
+  },
+  "3.0xATR (3.74%)": {
+   "sharpe": 0.4615,
+   "mean_ret_pct": 4.88,
+   "median_ret_pct": 4.49,
+   "p_loss_gt5": 2.49,
+   "p_profit": 56.0,
+   "avg_stops_yr": 1.8
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "ticker": "NVLX",
+ "methodology": "ATR-based trailing stop + Prophet drift signal (SAMPLE DATA)",
+ "atr14": 3.64,
+ "atr_pct_of_price": 2.63,
+ "parkinson_sigma_pct": 2.39,
+ "stage2_pass": true,
+ "recommended_stop": "2.5xATR (6.58%)",
+ "results": {
+  "1.5xATR (3.95%)": {
+   "sharpe": 0.8589,
+   "mean_ret_pct": 9.64,
+   "median_ret_pct": 8.87,
+   "p_loss_gt5": 2.64,
+   "p_profit": 61.2,
+   "avg_stops_yr": 7.6
+  },
+  "2.0xATR (5.27%)": {
+   "sharpe": 1.1137,
+   "mean_ret_pct": 11.48,
+   "median_ret_pct": 10.56,
+   "p_loss_gt5": 2.24,
+   "p_profit": 64.5,
+   "avg_stops_yr": 5.7
+  },
+  "2.5xATR (6.58%)": {
+   "sharpe": 1.45,
+   "mean_ret_pct": 16.19,
+   "median_ret_pct": 14.9,
+   "p_loss_gt5": 1.8,
+   "p_profit": 68.8,
+   "avg_stops_yr": 4.6
+  },
+  "3.0xATR (7.90%)": {
+   "sharpe": 1.1204,
+   "mean_ret_pct": 12.45,
+   "median_ret_pct": 11.46,
+   "p_loss_gt5": 1.95,
+   "p_profit": 64.6,
+   "avg_stops_yr": 3.8
+  }
+ }
+}
